@@ -1,9 +1,8 @@
 Readme.txt
 
-Sposób uruchomienia:
+Sposób instalacji i uruchomienia
 
-Po pobraniu pakietu należy uruchomić go poleceniem roslaunch turtlepublish turtlepublish.launch
-Uruchamia to okno zółwia oraz skrypt sterujący. W celu uruchomienia sterowania należy kliknąć w okno uruchomionego skryptu.
+Po wejściu w podkatalog src w przestrzeni roboczej catkina należy użyć polecenia git clone https://github.com/pw-eiti-anro-20l/radzimirski.git, następnie w przestrzeni roboczej catkina użyć polecenia catkin_make.(testowane na dwóch różnych przestrzeniach roboczych uruchamianych na jednym systemie operacynym), po zbudowaniu pakietu należy w przestrzeni roboczej catkina użyć polecenia source devel/setup.bash. Następnie w celu urucomienia należy wprowadzić polecenie roslaunch lab1_turtlepublish lab1_turtlepublish.launch Uruchamia to okno zółwia oraz skrypt sterujący. W celu uruchomienia sterowania należy kliknąć w okno uruchomionego skryptu.
 
 Sterowanie:
 W - ruch do przodu
