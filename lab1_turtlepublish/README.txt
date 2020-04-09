@@ -21,6 +21,8 @@ do publikacji na temat /turtle1/cmd_vel, służący do transmisji wiadomości o 
 Informacja o tym, jakie przyciski są stosowane do sterowania, pobierane z serwera parametrów ROS, po przejściu całej procedury ustawiania parametrów na terminal jest publikowany log o przejściu ustawień.
 
 W pętli while, działające tak długo, jak uruchomiona jest biblioteka rospy, sprawdzane są przyciski - w zależności od wcisniętego przycisku wykonuje się określony ruch żółwia z zadaną prędkością.
+
+W pliku rosgraph.svg znajduje się wykres węzłów w paczce w trakcie trwania pracy programu
  
 
 
