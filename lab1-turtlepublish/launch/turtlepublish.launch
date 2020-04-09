@@ -1,0 +1,12 @@
+<launch>
+
+    <node pkg="turtlesim" name="sim" type="turtlesim_node"/>
+
+    <node pkg="turtlepublish" name="turtlepub" type="turtle_publisher.py" output="screen">
+        <param name="fwd" value="w"/>
+	<param name="bck" value="s"/>
+	<param name="tr" value="d"/>
+	<param name="tl" value="a"/>
+    </node>
+
+</launch>
