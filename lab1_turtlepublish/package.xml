@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>turtlepublish</name>
+  <name>lab1_turtlepublish</name>
   <version>0.0.0</version>
-  <description>The turtlepublish package</description>
+  <description>The lab1_turtlepublish package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->

@@ -2,7 +2,7 @@ Readme.txt
 
 Sposób uruchomienia:
 
-Po pobraniu pakietu należy uruchomić go poleceniem roslaunch lab1_turtlepublish lab1_turtlepublish.launch
+Po pobraniu pakietu należy uruchomić go poleceniem roslaunch turtlepublish turtlepublish.launch
 Uruchamia to okno zółwia oraz skrypt sterujący. W celu uruchomienia sterowania należy kliknąć w okno uruchomionego skryptu.
 
 Sterowanie:
@@ -22,8 +22,6 @@ do publikacji na temat /turtle1/cmd_vel, służący do transmisji wiadomości o 
 Informacja o tym, jakie przyciski są stosowane do sterowania, pobierane z serwera parametrów ROS, po przejściu całej procedury ustawiania parametrów na terminal jest publikowany log o przejściu ustawień.
 
 W pętli while, działające tak długo, jak uruchomiona jest biblioteka rospy, sprawdzane są przyciski - w zależności od wcisniętego przycisku wykonuje się określony ruch żółwia z zadaną prędkością.
-
-W pliku lab1rosgraph.svg znajduje się graf przedstawiający węzły w paczce w trakcie działania
  
 
 
