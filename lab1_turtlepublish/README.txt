@@ -2,7 +2,7 @@ Readme.txt
 
 Sposób uruchomienia:
 
-Po pobraniu pakietu należy uruchomić go poleceniem roslaunch lab1-turtlepublish turtlepublish.launch
+Po pobraniu pakietu należy uruchomić go poleceniem roslaunch lab1_turtlepublish lab1_turtlepublish.launch
 Uruchamia to okno zółwia oraz skrypt sterujący. W celu uruchomienia sterowania należy kliknąć w okno uruchomionego skryptu.
 
 Sterowanie:
